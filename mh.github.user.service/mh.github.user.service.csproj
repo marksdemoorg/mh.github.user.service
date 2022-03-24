@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mh.github.user.entity\mh.github.user.entity.csproj" />
+    <ProjectReference Include="..\mh.github.user.data\mh.github.user.data.csproj" />
+    <ProjectReference Include="..\mh.github.user.interfaces\mh.github.user.interfaces.csproj" />
+  </ItemGroup>
+</Project>

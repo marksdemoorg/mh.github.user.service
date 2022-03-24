@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AppService\" />
+    <None Remove="DataService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppService\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mh.github.user.entity\mh.github.user.entity.csproj" />
+  </ItemGroup>
+</Project>
