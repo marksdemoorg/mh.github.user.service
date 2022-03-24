@@ -11,4 +11,4 @@ on:
 
 jobs:
   call-ci-workflow:
-    uses: marksdemoorg/workflow-templates/blob/main/marks-demo-org-ci.yml@main
+    uses: marksdemoorg/workflow-templates/.github/workflows/marks-demo-org-ci.yml@main
