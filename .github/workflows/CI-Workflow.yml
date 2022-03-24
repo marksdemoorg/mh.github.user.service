@@ -12,3 +12,5 @@ on:
 jobs:
   call-ci-workflow:
     uses: marksdemoorg/workflow-templates/.github/workflows/dot-net-build-test.yml@main
+  call-ci-codeul-workflow:
+    uses: marksdemoorg/workflow-templates/.github/workflows/ci-codeql.yml@main
