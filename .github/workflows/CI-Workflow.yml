@@ -1,4 +1,4 @@
-name: CI
+name: CI with Code Scanning
 
 on:
 
@@ -12,5 +12,5 @@ on:
 jobs:
   call-ci-workflow:
     uses: marksdemoorg/workflow-templates/.github/workflows/dot-net-build-test.yml@main
-  call-ci-codeul-workflow:
-    uses: marksdemoorg/workflow-templates/.github/workflows/ci-codeql.yml@main
+  call-ci-codeul-csharp-workflow:
+    uses: marksdemoorg/workflow-templates/.github/workflows/ci-codeql-csharp.yml@main
