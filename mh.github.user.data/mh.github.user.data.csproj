@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="UserData\" />
     <None Remove="User\" />
+    <None Remove="System.DirectoryServices" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="User\" />
@@ -17,5 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\mh.github.user.interfaces\mh.github.user.interfaces.csproj" />
     <ProjectReference Include="..\mh.github.user.entity\mh.github.user.entity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices" Version="6.0.0" />
   </ItemGroup>
 </Project>
