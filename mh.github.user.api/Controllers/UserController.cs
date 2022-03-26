@@ -18,7 +18,16 @@ namespace mh.github.user.api.Controllers
         [HttpGet]
         public async Task<IEnumerable<User>> GetAsync()
         {
-            return await userService.GetUsersAsync();
+            try
+            {
+                return await userService.GetUsersAsync();
+            }
+            catch(Exception ex)
+            {
+                LogHandler.Log(ex.ToString());
+                return null;
+            }
+            
         }
 
         // GET api/values/{{Guid}}
