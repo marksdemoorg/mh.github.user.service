@@ -18,7 +18,7 @@ namespace mh.github.user.api.Controllers
         [HttpGet]
         public async Task<IEnumerable<User>> GetAsync()
         {
-            var myVar123 = "Hello";
+            var myUnusedVar = "Hello";
             return await userService.GetUsersAsync();
         }
 
