@@ -24,6 +24,7 @@ namespace mh.github.user.service
         {
 			//BAD
 			var user = FindUser("*");
+			var myVar = "aa";
 			return await userRepository.GetUserAsync(userId);
 
         }
